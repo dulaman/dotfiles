@@ -1,3 +1,5 @@
+set shell=/bin/bash
+
 filetype on
 set mouse=a
 set tabpagemax=20
@@ -94,10 +96,12 @@ set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
 
 "mapowanie klawiszy
 
+"NerdTree
+map <F2> <plug>NERDTreeTabsToggle<CR>
 "zapis
-inoremap <C-s> <Esc>:w<CR>i
+map <C-s> <Esc>:w<CR>
 "zapis wszystkich
-inoremap <C-S-s> <Esc>:wa<CR>i 
+map <C-S-s> <Esc>:wa<CR> 
 "cofanie + insert
 inoremap <F3> <Esc>ui
 "powtrzanie + insert
