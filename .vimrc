@@ -38,6 +38,13 @@ Bundle "pangloss/vim-javascript"
 Bundle "jelera/vim-javascript-syntax"
 Bundle "nathanaelkane/vim-indent-guides"
 
+"Wsparcie dla TWIG-a
+Bundle "dulaman/vim-twig"
+
+"NerdTREE
+Bundle "scrooloose/nerdtree"
+Bundle "jistr/vim-nerdtree-tabs"
+
 "Autouzupełnianie przy wpisywaniu (as-you-type)
 Bundle "Valloric/YouCompleteMe"
 
